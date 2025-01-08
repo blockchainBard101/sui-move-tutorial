@@ -112,10 +112,9 @@ sudo apt install ./code*.deb
 ## Recommended VSCode Extensions
 
 Install the following extensions for an optimal development experience:
-1. [Sui Move Analyzer](https://marketplace.visualstudio.com/items?itemName=Sui-Move-Analyzer.sui-move-analyzer)
-2. [Sui Extension](https://marketplace.visualstudio.com/items?itemName=Sui.Extension)
-3. [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
-4. [Move by MystenLabs](https://marketplace.visualstudio.com/items?itemName=MystenLabs.move)
-5. [Move Syntax by Damir Shamanaev](https://marketplace.visualstudio.com/items?itemName=damir-shamanaev.move-syntax)
+1. [Sui Move Analyzer](https://marketplace.visualstudio.com/items?itemName=MoveBit.sui-move-analyzer)
+2. [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
+3. [Move by MystenLabs](https://marketplace.visualstudio.com/items?itemName=mysten.move)
+4. [Move Syntax by Damir Shamanaev](https://marketplace.visualstudio.com/items?itemName=damirka.move-syntax)
 
 ---
