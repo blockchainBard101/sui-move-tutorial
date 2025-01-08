@@ -1,5 +1,3 @@
-
-```markdown
 # Installing Sui Move on Linux (Ubuntu)
 
 This guide provides step-by-step instructions to install Sui Move, set up the `sui-move-analyzer` language server, and configure VSCode for development.
