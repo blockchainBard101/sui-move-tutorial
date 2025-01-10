@@ -118,3 +118,10 @@ Install the following extensions for an optimal development experience:
 4. [Move Syntax by Damir Shamanaev](https://marketplace.visualstudio.com/items?itemName=damirka.move-syntax)
 
 ---
+
+## Video Guide
+
+Here is a video guide on how to install Sui on Ubuntu:
+
+[![Install Sui on Ubuntu](https://img.youtube.com/vi/owSlmn_-p3I/0.jpg)](https://youtu.be/owSlmn_-p3I)
+```
