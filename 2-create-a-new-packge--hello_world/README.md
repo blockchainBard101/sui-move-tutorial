@@ -94,7 +94,7 @@ module hello_world::hello_world;
 use std::string::String;
 
 /// Returns the "Hello, World!" as a `String`.
-public fun hello_world(): String {
+public fun hello(): String {
     b"Hello, World!".to_string()
 }
 ```
@@ -128,7 +128,7 @@ const ENotImplemented: u64 = 0;
 
 #[test]
 fun test_hello_world() {
-    debug::print(&hello_world::hello_world());
+    debug::print(&hello_world::hello());
 }
 
 #[test, expected_failure(abort_code = ::hello_world::hello_world_tests::ENotImplemented)]
