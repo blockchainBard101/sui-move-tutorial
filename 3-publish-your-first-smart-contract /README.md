@@ -168,9 +168,6 @@ For a step-by-step walkthrough, watch this video tutorial:
 ## Additional Resources
 
 Refer to the [Move Book: Your First Move Program](https://move-book.com/your-first-move/hello-world.html) for more details on Move programming.
-```
-
-This `README.md` file is structured, easy to follow, and provides detailed explanations with practical examples. Let me know if you need further refinements!
 
 
 
