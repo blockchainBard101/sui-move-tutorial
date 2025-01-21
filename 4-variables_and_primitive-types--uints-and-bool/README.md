@@ -1,6 +1,6 @@
-# Move Programming Basics: Variables and Primitive types
+# Move Programming Basics: Variables and Primitive types(uint and bool)
 
-Welcome to the repository for learning the fundamentals of variables and primitive types in the Move programming language! 🚀 This guide is perfect for developers looking to understand how to declare variables, perform type casting, and execute safe arithmetic operations in Move.
+Welcome to the repository for learning the fundamentals of variables and primitive types(uint and bool) in the Move programming language! 🚀 This guide is perfect for developers looking to understand how to declare variables, perform type casting, and execute safe arithmetic operations in Move.
 
 
 ## Introduction
