@@ -4,9 +4,9 @@ use std::debug;
 
 public fun main(){
     // bool --> true or false
-    // u8 --> 8 bytes
-    //u16 --> 16 bytes
-    //u32, u64, u128, u256
+    // u8 --> 8 bits
+    //u16 --> 16 bits
+    //u32, u64, u128, u256 bits
 
     // let a: u8  = 7;
     let a = 7u8;

@@ -100,7 +100,7 @@ let z = x + y;
 
 For a step-by-step walkthrough, watch this video tutorial:
 
-[![Install Sui on Windows](https://img.youtube.com/vi/owSlmn_-p3I/0.jpg)](https://youtu.be/vEuyFKeZIso)
+[![Install Sui on Windows](https://img.youtube.com/vi/owSlmn_-p3I/0.jpg)](https://youtu.be/jywiLWHP7yQ)
 
 ---
 
