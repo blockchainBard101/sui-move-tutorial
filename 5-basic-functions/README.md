@@ -75,6 +75,29 @@ The `add` function is only accessible within the `basic_functions::calculator` m
 
 ---
 
+## Assignment
+
+### Task:
+Create a package named `calculator`. Within this package, create a module also named `calculator`. Define 5 functions in the module: 4 internal functions and 1 public function.
+
+#### Internal Functions
+- **Names**: `add`, `subtract`, `multiply`, and `divide`
+- **Specifications**:
+  - Accept two arguments of type `u8`.
+  - Perform the respective operation (add, subtract, multiply, or divide) on the arguments.
+  - Return the result as a value of type `u32`.
+
+#### Public Function
+- **Name**: `answer`
+- **Specifications**:
+  - Accept two arguments of type `u16`.
+  - Pass these arguments to each of the internal functions (convert them to `u8` if needed).
+  - Collect the returned values from the internal functions.
+  - Return all the results (4 values) as type `u64`.
+
+---
+
+
 ## Video Guide
 
 For a step-by-step walkthrough, watch this video tutorial:
