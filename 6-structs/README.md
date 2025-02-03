@@ -156,7 +156,7 @@ By mastering Move structs, you can efficiently manage and organize data in your 
 
 For a step-by-step walkthrough, watch this video tutorial:
 
-[![Structs](https://img.youtube.com/vi/owSlmn_-p3I/0.jpg)](https://youtu.be/TmFJKKmGb-0)
+[![Structs](https://img.youtube.com/vi/vPv_KLcOoTc/0.jpg)](https://https://youtu.be/vPv_KLcOoTc)
 
 ---
 
