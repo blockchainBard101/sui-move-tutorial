@@ -96,7 +96,12 @@ Create a package named `calculator`. Within this package, create a module also n
   - Return all the results (4 values) as type `u64`.
 
 ### Solution
-[Solution](https://move-book.com/reference/functions.html).
+[Solution](https://github.com/blockchainBard101/sui-move-tutorial/blob/main/5-basic-functions/calculator/sources/calculator.move).
+
+## Video Solution
+For a step-by-step walkthrough, watch this video tutorial:
+
+[![Solution](https://img.youtube.com/vi/owSlmn_-p3I/0.jpg)](https://youtu.be/kDfNQBbS8Aw)
 ---
 
 
@@ -104,7 +109,7 @@ Create a package named `calculator`. Within this package, create a module also n
 
 For a step-by-step walkthrough, watch this video tutorial:
 
-[![Install Sui on Windows](https://img.youtube.com/vi/owSlmn_-p3I/0.jpg)](https://youtu.be/TmFJKKmGb-0)
+[![Basic Function](https://img.youtube.com/vi/owSlmn_-p3I/0.jpg)](https://youtu.be/TmFJKKmGb-0)
 
 ---
 
