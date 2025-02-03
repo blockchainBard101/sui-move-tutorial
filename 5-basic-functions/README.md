@@ -101,7 +101,7 @@ Create a package named `calculator`. Within this package, create a module also n
 ## Video Solution
 For a step-by-step walkthrough, watch this video tutorial:
 
-[![Solution](https://img.youtube.com/vi/owSlmn_-p3I/0.jpg)](https://youtu.be/kDfNQBbS8Aw)
+[![Solution](https://img.youtube.com/vi/kDfNQBbS8Aw/0.jpg)](https://youtu.be/kDfNQBbS8Aw)
 ---
 
 
