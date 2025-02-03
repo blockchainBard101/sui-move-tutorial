@@ -78,7 +78,7 @@ The `add` function is only accessible within the `basic_functions::calculator` m
 ## Assignment
 
 ### Task:
-Create a package named `calculator`. Within this package, create a module also named `calculator`. Define 5 functions in the module: 4 internal functions and 1 public function.
+Create a package named `calculator`. Within this package, create a module also named `calculator`. Define 5 functions in the module: 4 internal functions and 1 public function. 
 
 #### Internal Functions
 - **Names**: `add`, `subtract`, `multiply`, and `divide`
@@ -95,6 +95,8 @@ Create a package named `calculator`. Within this package, create a module also n
   - Collect the returned values from the internal functions.
   - Return all the results (4 values) as type `u64`.
 
+### Solution
+[Solution](https://move-book.com/reference/functions.html).
 ---
 
 
