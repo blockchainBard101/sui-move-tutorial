@@ -91,7 +91,7 @@ Move enforces ownership rules, and objects must be explicitly shared to allow ex
 ## **Assignment**  
 
 ### **Objective**  
-Create a `Wallet` object that stores token information and allows deposit, withdrawal, and retrieval of token details.  
+Create a `Wallet` object that stores token information and allows deposit, withdrawal, retrieval of token details and delete wallet.  
 
 ### **Wallet Structure**  
 The `Wallet` struct should contain the following fields:  
