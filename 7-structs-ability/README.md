@@ -135,8 +135,16 @@ You can define `Token` as a separate struct and embed it within `Wallet`.
 ## Summary
 - Structs in Move allow you to group related data.
 - Abilities (`key`, `copy`, `drop`, `store`) define how structs behave.
-- Objects must be shared using `transfer::share_object()`.
+- Objects must be shared using `transfer::transfer()`.
 - Move enforces strict ownership and storage rules for struct instances.
+
+### Solution
+[Solution](https://github.com/blockchainBard101/sui-move-tutorial/blob/main/5-basic-functions/calculator/sources/calculator.move).
+
+## Video Solution
+For a step-by-step walkthrough, watch this video tutorial:
+
+[![Solution](https://img.youtube.com/vi/HIWlAThYBzs/0.jpg)](https://youtu.be/HIWlAThYBzs)
 
 ---
 ## Video Guide
