@@ -139,7 +139,7 @@ You can define `Token` as a separate struct and embed it within `Wallet`.
 - Move enforces strict ownership and storage rules for struct instances.
 
 ### Solution
-[Solution](https://github.com/blockchainBard101/sui-move-tutorial/blob/main/5-basic-functions/calculator/sources/calculator.move).
+[Solution](https://github.com/blockchainBard101/sui-move-tutorial/blob/main/7-structs-ability/wallet/sources/wallet.move).
 
 ## Video Solution
 For a step-by-step walkthrough, watch this video tutorial:
