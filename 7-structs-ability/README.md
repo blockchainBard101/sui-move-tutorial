@@ -114,11 +114,15 @@ Implement the following functions for the `Wallet` struct:
    - Decreases the wallet's token balance by `amount`.  
    - Ensure the balance does not go negative (i.e., enforce sufficient balance).  
 
-4. **`get_token(wallet: Wallet) -> Token`**  
+4. **`get_token(wallet: &Wallet) -> Token`**  
    - Returns the `Token` struct associated with the wallet.  
 
-5. **`get_balance(wallet: Wallet) -> u64`**  
-   - Returns the balance of the wallet’s token.  
+5. **`get_balance(wallet: &Wallet) -> u64`**  
+   - Returns the balance of the wallet’s token.
+   - 
+6. **`delete_wallet(wallet: Wallet)`**  
+   - Deletes the wallet.  
+
 
 ### **Additional Notes**  
 - Utilize **struct abilities** in Sui Move for proper data handling.  
