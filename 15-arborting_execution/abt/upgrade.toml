@@ -1,0 +1,5 @@
+[upgrade]
+upgrade_cap = "0x700459b806e40a9afcbc23725885ce22c1a12d7a1313a8fb4dd4e7541696dcf8"
+package_id = "0xd203a0f1a31e21f8f7dab34ecf052341bf2769d51700a4b14305d059e2cb1258"
+environment = "devnet"
+created_at = "2025-07-07T04:33:59.576Z"
