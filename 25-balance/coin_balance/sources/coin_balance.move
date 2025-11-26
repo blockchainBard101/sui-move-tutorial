@@ -1,26 +1,25 @@
 module coin_balance::coin_balance;
 
 use sui::balance::{Self, Balance};
-use sui::sui::SUI;
-use sui::coin::{Self, Coin};
-
-public struct Vault has key, store{
+use sui::coin::{Coin};
+use sui::token;
+public struct Vault<phantom C> has key, store{
     id: UID,
-    balance: Balance<SUI>,
+    balance: Balance<C>,
     owner: address
 }
 
 #[allow(lint(self_transfer))]
-public fun create_vault(ctx: &mut TxContext){
-    let vault = Vault {
+public fun create_vault<C>(ctx: &mut TxContext){
+    let vault = Vault<C>{
         id: object::new(ctx),
-        balance: balance::zero<SUI>(),
+        balance: balance::zero<C>(),
         owner: ctx.sender() 
     };
     transfer::public_transfer(vault, ctx.sender());
 }   
 
-public fun deposit(vault: &mut Vault, coin: Coin<SUI>){
+public fun deposit<C>(vault: &mut Vault<C>, coin: Coin<C>){
 
     let coin_bal = coin.into_balance();
 
@@ -31,7 +30,7 @@ public fun deposit(vault: &mut Vault, coin: Coin<SUI>){
 
 
 #[allow(lint(self_transfer))]
-public fun withdraw(vault: &mut Vault, amount: u64, ctx: &mut TxContext){
+public fun withdraw<C>(vault: &mut Vault<C>, amount: u64, ctx: &mut TxContext){
     // let new_balance = balance::split( &mut vault.balance, amount);
 
     let new_balance = vault.balance.split(amount);
@@ -43,7 +42,7 @@ public fun withdraw(vault: &mut Vault, amount: u64, ctx: &mut TxContext){
 }
 
 #[allow(lint(self_transfer))]
-public fun withdraw_all(vault: &mut Vault, ctx: &mut TxContext){
+public fun withdraw_all<C>(vault: &mut Vault<C>, ctx: &mut TxContext){
     // let new_balance = balance::withdraw_all(&mut vault.balance);
 
     let new_balance = vault.balance.withdraw_all();
@@ -53,14 +52,14 @@ public fun withdraw_all(vault: &mut Vault, ctx: &mut TxContext){
     transfer::public_transfer(new_coin, ctx.sender());
 }
 
-public fun destroy_zero(vault: Vault){
+public fun destroy_zero<C>(vault: Vault<C>){
     let Vault {id, balance, owner: _} = vault;
     id.delete();
 
     balance::destroy_zero(balance);
 }
 
-public fun get_total_amount(vault: &Vault) : u64{
+public fun get_total_amount<C>(vault: &Vault<C>) : u64{
     // balance::value(&vault.balance)
     vault.balance.value()
 }
