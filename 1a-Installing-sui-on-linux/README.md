@@ -38,6 +38,11 @@ You can install Rust in two ways:
    ```bash
    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
    ```
+
+   ```bash
+   . "$HOME/.cargo/env"
+   ```
+   
 2. If Rust is already installed, update to the latest stable version:
    ```bash
    rustup update stable
