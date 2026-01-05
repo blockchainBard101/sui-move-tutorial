@@ -38,7 +38,7 @@ You can install Rust in two ways:
    ```bash
    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
    ```
-
+   after installing run to fix the PATH
    ```bash
    . "$HOME/.cargo/env"
    ```
