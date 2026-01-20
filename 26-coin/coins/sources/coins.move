@@ -1,6 +1,6 @@
 module coins::coins;
-use sui::coin_registry::{Self, CoinRegistry, Currency};
-use sui::coin::{Coin, TreasuryCap};
+use sui::coin_registry::{Self, CoinRegistry};
+use sui::coin::{TreasuryCap};
 
 public struct MyCoin has key{
     id: UID
