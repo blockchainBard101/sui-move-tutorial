@@ -45,31 +45,4 @@ public fun mint(treasury_cap: &mut TreasuryCap<MyCoin>, amount: u64, ctx: &mut T
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // https://i.ibb.co/7J6HbMgw/19023983-431a-4013-9333-22ee8ff92c48.jpg
